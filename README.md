@@ -2,11 +2,12 @@
 
 ##### O objetivo deste repositório é armazenar testes e exemplos de uso de algumas das estruturas de dados mais famosas e de alguns algoritmos comuns.
 
+___
+
 ## Build && Tests
 
 `mvn clean install`
 
-___
 
 ## LinkedList
 Diferentemente da matriz, um LinkedList possui uma cadeia de nós, formando uma lista.
@@ -22,7 +23,7 @@ Por padrão, um LinkedList possui as seguintes características:
 - Não permite acesso aleatório
 ___
 
-##### Classe para os Testes
+#### Classe para os Testes
 
 Para os testes foram abordado as seguintes condições seguindo a regra acima:
 
@@ -53,7 +54,7 @@ Por padrão, a Fila possui as seguintes características:
 - O método de inserção é chamado de colocar recebendo como parâmetros a chave e o valor
 - O método de recuperação é chamado de get recebendo como parâmetro a chave
 
-##### Classe para os Testes
+#### Classe para os Testes
 
 Seguindo o padrão de *key:value* foi verificado as seguintes condições nos testes:
 
@@ -73,7 +74,7 @@ Essa estratégia consiste em criar uma matriz e indexar os resultados recursivos
 
 Por exemplo, um algoritmo de Fibonacci puramente recursivo foi criado e outro usando Memoization e um teste foi realizado comparando o tempo de execução de cada um.
 
-##### Classe para os Testes
+#### Classe para os Testes
 
 Como a sequência de Fibonacci tem como primeiros termos os números 0 e 1 e, a seguir,
 cada termo subsequente é obtido pela soma dos dois termos predecessores foi feito o seguinte:
@@ -102,7 +103,7 @@ A estratégia usada pelo algoritmo de classificação de bolhas é comparar um o
 
 Essa abordagem é funcional, mas **não muito performática**, pois é um algoritmo com uma característica de tempo de execução **O(n^2)**
 
-##### Classe para os Testes
+#### Classe para os Testes
 
 Para os testes foram abordado as seguintes condições:
 
@@ -120,7 +121,7 @@ A estratégia usada pelo algoritmo Merge Sort consiste em **dividir a matriz em 
 
 Os objetos isolados são comparados, ordenados e reagrupados em sequência (como uma mesclagem).
 
-##### Classe para os Testes
+#### Classe para os Testes
 
 Para os testes foram abordado as seguintes condições:
 
@@ -144,7 +145,7 @@ No final desta comparação, o algoritmo separa a lista em 2 listas e repete o m
 Esse algoritmo é bastante perfomático e é classificado com a característica de tempo de execução **O (n log n)** e dos
 três tipos apresentados é o **mais performatico**.
 
-##### Classe para os Testes
+#### Classe para os Testes
 
 Para os testes foram abordado as seguintes condições:
 
