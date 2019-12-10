@@ -2,8 +2,6 @@
 
 ##### O objetivo deste repositório é armazenar testes e exemplos de uso de algumas das estruturas de dados mais famosas e de alguns algoritmos comuns.
 
-___
-
 ## Build && Tests
 
 `mvn clean install`
@@ -22,6 +20,7 @@ Por padrão, um LinkedList possui as seguintes características:
 - Os métodos get e set usam um O (n)
 - Os métodos de inserção e exclusão usam um O (1)
 - Não permite acesso aleatório
+___
 
 ##### Classe para os Testes
 
@@ -39,6 +38,7 @@ Para os testes foram abordado as seguintes condições seguindo a regra acima:
 ```$xslt
 LinkedListTest.java
 ``` 
+___
 
 ## HashTable
 
@@ -63,7 +63,6 @@ Seguindo o padrão de *key:value* foi verificado as seguintes condições nos te
 ```$xslt
 HashTableTest.java
 ``` 
-
 ___
 
 ## Memoization (Fibonacci)
@@ -145,7 +144,7 @@ No final desta comparação, o algoritmo separa a lista em 2 listas e repete o m
 Esse algoritmo é bastante perfomático e é classificado com a característica de tempo de execução **O (n log n)** e dos
 três tipos apresentados é o **mais performatico**.
 
-###### Test Class
+##### Classe para os Testes
 
 Para os testes foram abordado as seguintes condições:
 
@@ -179,7 +178,6 @@ Por padrão, a Fila possui as seguintes características:
 - O método de inserção é chamado de **add**
 - O método para remoção é chamado **remove**
 - O método para obter a **head**  (primeiro objeto inserido) é chamado de espiar (**peek**)
-    
 ___
 
 ## Retorno obtido:
